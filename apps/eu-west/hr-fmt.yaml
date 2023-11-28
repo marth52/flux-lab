@@ -17,6 +17,7 @@ spec:
   valuesFrom:
   - kind: Secret
     name: db-credentials
+    valuesKey: username
   values:
     image:
       repository: publicoci.azurecr.io/apps/sample-app
